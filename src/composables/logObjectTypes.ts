@@ -1,0 +1,8 @@
+export enum OBJECTTYPE {
+    COMPANY = 0,
+    PRODUCT = 1,
+    COMPENSATION= 2,
+    END_DESTINATION= 3,
+    IMPORT= 4,
+    PRODUCTION= 5
+};

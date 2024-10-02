@@ -1,0 +1,1027 @@
+{
+  "common": {
+    "close": "Fechar",
+    "logout": "Sair",
+    "viewProfile": "Ver Perfil",
+    "editProfile": "Editar Perfil",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "save": "Salvar",
+    "confirm": "Confirmar",
+    "view": "Visualizar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "label": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "companyName": "Empresa",
+      "totaltae": "Valor Total do Imposto (MT)"
+    },
+    "packagingMaterial": {
+      "Plastic": "Plástico",
+      "Glass": "Vidro",
+      "Paper/Cardboard": "Papel/Papelão",
+      "Cardboard": "Papelão",
+      "Metal": "Metal",
+      "Multilayer": "Multicamadas",
+      "Biodegradable": "Biodegradável",
+      "Hazardous": "Perigoso",
+      "Others": "Outros",
+      "info": "Informações sobre material de embalagem"
+    },
+    "placeholder": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email"
+    },
+    "name": "Nome",
+    "email": "Email",
+    "status": "Status"
+  },
+  "Email": {
+    "VerifyEmail": "Verificar e-mail"
+  },
+  "status": {
+    "pending": "Pendente",
+    "verified": "Verificado",
+    "rejected": "Rejeitado",
+    "enabled": "Ativado",
+    "disabled": "Desativado",
+    "improved": "Melhorado",
+    "approved":"Aprovado",
+    "delayed": "Atrasado",
+    "draft":"Rascunho",
+    "notyetcleared": "Ainda não liberado",
+    "cleared": "Liberado",
+    "Nil":"Nil"
+  },
+  "menu": {
+    "title": {
+      "dashboard": "Painel",
+      "myAccount": "Minha Conta",
+      "companies": "Empresas",
+      "products": "Produtos",
+      "productionPlans": "Planos de Produção",
+      "imports": "Importações",
+      "compensations": "Compensações",
+      "myCompany": "Minha Empresa",
+      "viewProfile": "Ver Perfil",
+      "team": "Equipe",
+      "myProducts": "Meus Produtos",
+      "viewAll": "Ver Todos",
+      "addProduct": "Adicionar Produto",
+      "production": "Produção",
+      "verifiers": "Verificadores",
+      "messages": "Mensagens",
+      "endDestinations": "Destinos Finais",
+      "lateTaePayments": "Pagamentos de Impostos Atrasados",
+      "inviteUser": "Convidar Usuários",
+      "taeFees": "Taxa/Material de Imposto",
+      "users": "Usuários",
+      "taePayments": "Pagamentos de Impostos"
+    }
+  },
+  "dashboard": {
+    "head": {
+      "title": "e-TAE Sistema Eletrônico da Taxa Ambiental sobre a Embalagem"
+    }
+  },
+  "authentication": {
+    "head": {
+      "signUp": "Cadastrar",
+      "login": "Entrar",
+      "logTitle": "e-Tax Sistema Eletrônico da Taxa Ambiental sobre Embalagem",
+      "resetPassword": "Redefinir Senha",
+      "setPassword": "Definir Senha",
+      "changePassword": "Alterar Senha",
+      "otpVerification": "Verificação de OTP"
+    },
+    "label": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "password": "Senha",
+      "newPassword": "Nova Senha",
+      "confirmPassword": "Confirmar Senha",
+      "currentPassword": "Senha Atual",
+      "company": "Empresa",
+      "otp": "OTP"
+    },
+    "placeholder": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "password": "Senha",
+      "newPassword": "Nova Senha",
+      "company": "Selecionar Empresa",
+      "confirmPassword": "Confirmar Senha",
+      "currentPassword": "Senha Atual"
+    },
+    "button": {
+      "createAccount": "Criar Conta",
+      "login": "Entrar",
+      "resetPassword": "Redefinir Senha",
+      "setPassword": "Definir Senha",
+      "changePassword": "Alterar Senha",
+      "verifyOtp": "Verificar OTP"
+    },
+    "link": {
+      "alreadyHaveAccount": "Já tem uma conta?",
+      "noAccount": "Não tem uma conta?",
+      "forgotPassword": "Esqueceu a senha?",
+      "backToLogin": "Voltar ao Login",
+      "resendOtp": "Reenviar OTP"
+    },
+    "success": {
+      "register": "Usuário registrado com sucesso"
+    },
+    "error": {
+      "resendOtp": "Erro ao reenviar OTP",
+      "changePasswordOtp": "Erro ao enviar OTP para alterar senha",
+      "logout": "Erro ao sair"
+    },
+    "other": {
+      "resetPasswordDescription": "Digite a nova senha",
+      "setPasswordDescription": "Digite sua senha",
+      "changePasswordDescription": "Digite a nova senha para alterar sua senha atual",
+      "forgotPasswordDescription": "Você receberá um email se o usuário existir em nosso sistema",
+      "otpVerificationDescription": "Verifique seu email para o OTP",
+      "resendOtpDescription": "Reenviar OTP em {time}"
+    },
+    "validation": {
+      "firstName": {
+        "string": "O nome deve ser um texto",
+        "min": "O nome deve ter um comprimento mínimo de {min}",
+        "max": "O nome deve ter um comprimento máximo de {max}",
+        "required": "O nome é um campo obrigatório",
+        "pattern": "O nome deve conter apenas letras"
+      },
+      "lastName": {
+        "string": "O sobrenome deve ser um texto",
+        "min": "O sobrenome deve ter um comprimento mínimo de {min}",
+        "max": "O sobrenome deve ter um comprimento máximo de {max}",
+        "required": "O sobrenome é um campo obrigatório",
+        "pattern": "O sobrenome deve conter apenas letras"
+      },
+      "email": {
+        "email": "O email deve ser válido",
+        "required": "O email é um campo obrigatório",
+        "pattern": "O email deve conter apenas letras"
+      },
+      "currentPassword": {
+        "min": "A senha atual deve ter um comprimento mínimo de {min}",
+        "max": "A senha atual deve ter um comprimento máximo de {max}",
+        "required": "A senha atual é um campo obrigatório"
+      },
+      "password": {
+        "min": "A senha deve ter um comprimento mínimo de {min}",
+        "max": "A senha deve ter um comprimento máximo de {max}",
+        "required": "A senha é um campo obrigatório",
+        "invalid": "Credenciais inválidas",
+        "pattern": "A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula e um caractere especial"
+      },
+      "confirmPassword": {
+        "min": "A confirmação da senha deve ter um comprimento mínimo de {min}",
+        "max": "A confirmação da senha deve ter um comprimento máximo de {max}",
+        "required": "A confirmação da senha é um campo obrigatório",
+        "only": "A confirmação da senha deve ser igual à senha"
+      },
+      "otp": {
+        "min": "O OTP deve ter um comprimento mínimo de {min}",
+        "max": "O OTP deve ter um comprimento máximo de {max}",
+        "required": "O OTP é um campo obrigatório"
+      },
+      "company": {
+        "max": "A empresa deve ter um comprimento máximo de {max}"
+      }
+    }
+  },
+  "product": {
+    "head": {
+      "editProduct": "Editar Produto",
+      "addProduct": "Adicionar Produto",
+      "productList": "Produtos",
+      "viewProduct": "Detalhes do Produto"
+    },
+    "label": {
+      "product": "Produto",
+      "productName": "Nome do Produto",
+      "productCategory": "Código HS",
+      "image": "Foto",
+      "production": "Localização",
+      "manufacturerCompany": "Empresa Fabricante",
+      "countryOfManufacture": "País de Fabricação",
+      "brandName": "Marca",
+      "productModelTypeVolume": "Modelo/Tipo/Volume do Produto",
+      "barcode": "Código de Barras",
+      "internalArticleCode": "Código Interno do Artigo",
+      "status": "Status de Verificação",
+      "importStatus": "Status de Verificação",
+      "packingMaterials": "Materiais de Embalagem",
+      "packingMaterialsCount": "#Materiais",
+      "search": "Pesquisar",
+      "actions": "Ações"
+    },
+    "placeholder": {
+      "productName": "Digite o nome do produto",
+      "productCategory": "Digite o código HS",
+      "image": "Carregar foto",
+      "production": "Digite os detalhes da produção",
+      "manufacturerCompany": "Digite a empresa fabricante",
+      "countryOfManufacture": "Selecione o país de fabricação",
+      "brandName": "Digite a marca",
+      "productModelTypeVolume": "Digite o modelo/tipo/volume",
+      "barcode": "Digite o código de barras",
+      "internalArticleCode": "Digite o código interno do artigo"
+    },
+    "other": {
+      "notVerified": "Sua empresa não está verificada ou foi rejeitada. O produto só pode ser adicionado após a verificação."
+    },
+    "button": {
+      "submitProduct": "Enviar Produto",
+      "updateProduct": "Atualizar Produto",
+      "addProduct": "Adicionar Produto"
+    },
+    "success": {
+      "register": "Produto registrado com sucesso"
+    },
+    "validation": {
+      "productName": {
+        "required": "O nome do produto é um campo obrigatório"
+      },
+      "productCategory": {
+        "required": "A categoria do produto é um campo obrigatório",
+        "maxlength": "A categoria do produto deve ter 12 dígitos."
+      },
+      "production": {
+        "required": "A localização da produção é um campo obrigatório"
+      },
+      "image": {
+        "required": "A foto é um campo obrigatório"
+      },
+      "manufacturerCompany": {
+        "required": "A empresa fabricante é um campo obrigatório"
+      },
+      "countryOfManufacture": {
+        "required": "O país de fabricação é um campo obrigatório"
+      },
+      "brandName": {
+        "required": "A marca é um campo obrigatório"
+      },
+      "productModelTypeVolume": {
+        "required": "O modelo/tipo/volume do produto é um campo obrigatório"
+      },
+      "barcode": {
+        "required": "O código de barras é um campo obrigatório"
+      },
+      "internalArticleCode": {
+        "required": "O código interno do artigo é um campo obrigatório"
+      },
+      "packingMaterials": {
+        "required": "Os materiais de embalagem devem conter pelo menos um item",
+        "meterialRequired": "O material de embalagem é obrigatório",
+        "weightRequired": "O peso é obrigatório"
+      }
+    },
+    "error": {
+      "failedGetByProductId": "Falha ao buscar o produto pelo ID"
+    }
+  },
+  "packingMaterial": {
+    "head": {
+      "packingMaterial": "Material de Embalagem Primário",
+      "login": "Entrar",
+      "resetPassword": "Redefinir Senha"
+    },
+    "table": {
+      "material": "Material",
+      "weight": "Peso em gramas (1000 gramas é 1 kg.)",
+      "TAE_KG": "Imposto por KG (MT)",
+      "TAE_Total": "Total de Imposto (MT)",
+      "verification": "Status de Verificação",
+      "actions": "Ações",
+      "total": "Total"
+    },
+    "label": {
+      "material": "Material",
+      "weight": "Peso em gramas (1000 gramas é 1 kg.)",
+      "TAE_KG": "Imposto por KG (MT)",
+      "TAE_Total": "Total de Imposto (MT)",
+      "status": "Status"
+    },
+    "placeholder": {
+      "material": "Digite o tipo de material",
+      "weight": "Digite o peso",
+      "TAE_KG": "Digite o imposto por KG",
+      "TAE_Total": "Digite o total de imposto",
+      "status": "Digite o status"
+    },
+    "button": {
+      "save": "Salvar Material de Embalagem",
+      "update": "Atualizar Material de Embalagem",
+      "add": "Adicionar",
+      "add-packaging-meterial": "Adicionar Material de Embalagem"
+    },
+    "success": {
+      "create": "Material de embalagem adicionado com sucesso",
+      "update": "Material de embalagem atualizado com sucesso"
+    },
+    "validation": {
+      "material": {
+        "string": "O material deve ser um texto",
+        "required": "O material é um campo obrigatório"
+      },
+      "weight": {
+        "number": "O peso deve ser um número",
+        "required": "O peso é um campo obrigatório"
+      },
+      "TAE_KG": {
+        "number": "O imposto por KG deve ser um número",
+        "required": "O imposto por KG é um campo obrigatório"
+      },
+      "TAE_Total": {
+        "number": "O total de imposto deve ser um número",
+        "required": "O total de imposto é um campo obrigatório"
+      },
+      "status": {
+        "string": "O status deve ser um texto",
+        "required": "O status é um campo obrigatório"
+      }
+    }
+  },
+  "company": {
+    "head": {
+      "companyProfile": "Perfil da Empresa",
+      "editCompanyProfile": "Editar Perfil da Empresa",
+      "addCompanyProfile": "Adicionar Perfil da Empresa",
+      "team": "Equipe",
+      "inviteUser": "Convidar Membros",
+      "filterTeam": "Filtrar Equipe",
+      "reject": "Rejeitar",
+      "notYetCleared": "Ainda não liberado"
+    },
+    "label": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "companyName": "Nome da Empresa",
+      "logo": "Logo",
+      "person": "Pessoa",
+      "type": "Tipo",
+      "registrationNumber": "Número de Registro",
+      "activityCode": "Código de Atividade/RLEA",
+      "address": "Endereço",
+      "city": "Cidade",
+      "country": "País",
+      "companyPhoneNumber": "Telefone da Empresa",
+      "website": "Website",
+      "bankAccount": "Conta Bancária",
+      "importer": "Importador",
+      "producer": "Produtor",
+      "status": "Status de Verificação",
+      "search": "Pesquisar"
+    },
+    "placeholder": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email",
+      "companyName": "Nome da Empresa",
+      "person": "Pessoa",
+      "type": "Tipo",
+      "registrationNumber": "Número de Registro",
+      "activityCode": "Código de Atividade/RLEA",
+      "address": "Endereço",
+      "city": "Cidade",
+      "country": "País",
+      "companyPhoneNumber": "Telefone da Empresa",
+      "website": "Website",
+      "bankAccount": "Conta Bancária",
+      "importer": "Importador",
+      "producer": "Produtor",
+      "status": "Status"
+    },
+    "button": {
+      "createCompany": "Criar Empresa",
+      "clear": "Limpar",
+      "updateCompany": "Atualizar Empresa",
+      "inviteMembers": "Convidar Membros",
+      "filter": "Filtrar"
+    },
+    "success": {
+      "register": "Empresa registrada com sucesso"
+    },
+    "other": {
+      "editCompanyProfileDescription": "Edite o perfil da sua empresa",
+      "noCompanyDetails": "Nenhum detalhe da empresa encontrado. Por favor, crie uma empresa",
+      "noUserList": "Nenhuma lista de membros encontrada. Por favor, convide membros",
+      "notVerified": "Sua empresa não está verificada, você pode convidar um membro somente após a verificação da empresa",
+      "clickToCopy": "Clique para copiar o link"
+    },
+    "error": {
+      "failedToFetch": "Falha ao buscar dados iniciais:"
+    },
+    "validation": {
+      "logo": {
+        "required": "O logo é um campo obrigatório"
+      },
+      "companyName": {
+        "string": "O nome da empresa deve ser um texto",
+        "min": "O nome da empresa deve ter um comprimento mínimo de {min}",
+        "max": "O nome da empresa deve ter um comprimento máximo de {max}",
+        "required": "O nome da empresa é um campo obrigatório",
+        "pattern": "O nome da empresa deve conter apenas letras"
+      },
+      "type": {
+        "required": "O tipo é um campo obrigatório"
+      },
+      "registrationNumber": {
+        "string": "Digite um número de registro válido",
+        "min": "O número de registro deve ter um comprimento mínimo de {min}",
+        "max": "O número de registro deve ter um comprimento máximo de {max}",
+        "required": "O número de registro é um campo obrigatório"
+      },
+      "activityCode": {
+        "string": "Digite um código de atividade válido",
+        "min": "O código de atividade deve ter um comprimento mínimo de {min}",
+        "max": "O código de atividade deve ter um comprimento máximo de {max}",
+        "required": "O código de atividade é um campo obrigatório"
+      },
+      "address": {
+        "string": "O endereço deve ser um texto",
+        "min": "O endereço deve ter um comprimento mínimo de {min}",
+        "max": "O endereço deve ter um comprimento máximo de {max}",
+        "required": "O endereço é um campo obrigatório"
+      },
+      "city": {
+        "string": "Selecione uma cidade válida",
+        "required": "A cidade é um campo obrigatório"
+      },
+      "country": {
+        "string": "Selecione um país válido",
+        "required": "O país é um campo obrigatório"
+      },
+      "companyPhoneNumber": {
+        "string": "Digite um número de telefone válido da empresa",
+        "min": "O número de telefone da empresa deve ter um comprimento mínimo de {min}",
+        "max": "O número de telefone da empresa deve ter um comprimento máximo de {max}",
+        "required": "O número de telefone da empresa é um campo obrigatório",
+        "pattern": "Digite um número de telefone válido da empresa"
+      },
+      "website": {
+        "string": "Forneça um website válido",
+        "required": "O website é um campo obrigatório",
+        "uri": "Forneça um website válido"
+      },
+      "bankAccount": {
+        "string": "Digite um número de conta bancária válido",
+        "max": "A conta bancária deve ter um comprimento máximo de {max}"
+      }
+    }
+  },
+  "production": {
+    "head": {
+      "productionPlan": "Plano de Produção",
+      "addProduction": "Adicionar Produção",
+      "updateProduction": "Atualizar Produção",
+      "selectProducts": "Selecionar Produtos para o Plano de Produção",
+      "taeStatus": "Status do Pagamento de Impostos",
+      "taeWeight": "Peso do Imposto",
+      "taeMt": "Imposto (MT)",
+      "add": "Adicionar",
+      "edit": "Editar",
+      "production": "Produção"
+    },
+    "table": {
+      "product": "Produto",
+      "internalArticleCode": "Nº do Artigo",
+      "status": "Status de Verificação",
+      "plan": "Plano de Produção {year} (Unidades)",
+      "planStatus": "Status de Verificação do Plano {year}",
+      "actuals": "Produção Real {year} (Unidades)",
+      "actualsStatus": "Status de Verificação Real {year}",
+      "actions": "Ações",
+      "title": "Título",
+      "description": "Descrição",
+      "planYear": "Plano",
+      "previousYear": "Produção Real"
+    },
+    "meterialTable": {
+      "meterialKG": "Materiais (KGs)",
+      "meterialMT": "Materiais (MT)",
+      "plan": "Plano de Produção {year} (Unidades)",
+      "taeStatus": "Status de Verificação do Plano {year}",
+      "actual": "Produção Real {year} (Unidades)",
+      "taePayStatus": "Status do Pagamento de Imposto Real {year}",
+      "planTae": "Imposto Estimado {year}",
+      "actualTae": "Imposto a Pagar {year}"
+    },
+    "button": {
+      "addProduct": "Adicionar Produto",
+      "selectProduct": "Selecionar Produto",
+      "submitForApproval": "Enviar para Aprovação",
+      "saveDraft": "Salvar Rascunho",
+      "viewProductionUnits": "Ver Unidades de Produção"
+    },
+    "other": {
+      "noProductSelected": "Nenhum produto selecionado",
+      "noProductionAdded": "Nenhuma produção adicionada",
+      "notVerified": "Sua empresa não está verificada ou foi rejeitada. O plano de produção só pode ser adicionado após a verificação."
+    },
+    "error": {
+      "addProductToSaveDraft": "Por favor, adicione produtos para salvar como rascunho",
+      "addProductToSubmit": "Por favor, adicione produtos para enviar para aprovação",
+      "validValues": "Por favor, insira um número válido no plano e na produção real",
+      "allProductsApproved": "Todas as produções já estão aprovadas"
+    },
+    "validation": {
+      "plan": {
+        "number": "Digite um número válido no plano",
+        "required": "O plano é um campo obrigatório",
+        "min": "Valores negativos não são permitidos"
+      },
+      "actual": {
+        "number": "Digite um número válido na produção real",
+        "required": "A produção real é um campo obrigatório",
+        "min": "Valores negativos não são permitidos"
+      }
+    }
+  },
+  "selectProduct": {
+    "table": {
+      "product": "Produto",
+      "manufacturerCompany": "Empresa Fabricante",
+      "productCategory": "Código HS"
+    }
+  },
+  "apiResponse": {
+    "401": "Não autorizado",
+    "403": "Proibido",
+    "404": "Não encontrado",
+    "500": "Erro no servidor",
+    "errorOccurred": "Ocorreu um erro",
+    "networkError": "Erro de rede"
+  },
+  "logHistory": {
+    "title": "Histórico de Verificação",
+    "buttnText": "Histórico de Verificação",
+    "tableHeaders": {
+      "companyName": "Nome da Empresa",
+      "userName": "Nome do Usuário",
+      "fromStatus": "Status Anterior",
+      "toStatus": "Novo Status",
+      "comment": "Comentário",
+      "createdAt": "Data"
+    }
+  },
+  "import": {
+    "head": {
+      "edit": "Editar Envio de Importação",
+      "add": "Adicionar Envio de Importação",
+      "list": "Envios de Importação",
+      "view": "Status do Imposto de Importação",
+      "productDetails": "Detalhes do Produto",
+      "selectProducts": "Selecionar Produtos para Envio de Importação",
+      "taeStatus": "Status do Pagamento de Impostos"
+    },
+    "label": {
+      "cdNo": "Nº do Documento de Despacho de Importação",
+      "etaDate": "Data ETA da Importação",
+      "arrivalPort": "Porto de Chegada",
+      "countryId": "De País",
+      "fromPort": "De Porto",
+      "search": "Pesquisar",
+      "year": "Ano",
+      "status": "Status de Verificação",
+      "payStatus": "Status do Pagamento",
+      "units": "Unidades",
+      "product": "Produto",
+      "internalArticleCode": "Nº do Artigo",
+      "taeTotalValue": "Valor Total do Imposto (MT)",
+      "actions": "Ações",
+      "productUnits": "#Produtos",
+      "taeValue": "Valor do Imposto (MT)",
+      "materials": "Materiais",
+      "totalWeightKgs": "KGs Importados",
+      "importTaeTotal": "Imposto de Importação (MT)",
+      "taepayStatus": "Status do Pagamento {year}",
+      "company": "Empresa"
+    },
+    "placeholder": {
+      "cdNo": "Digite o número do documento de despacho de importação",
+      "etaDate": "Digite a data ETA de importação",
+      "arrivalPort": "Digite o porto de chegada",
+      "countryId": "Digite o país de origem",
+      "fromPort": "Digite o porto de origem",
+      "units": "Digite as unidades"
+    },
+    "button": {
+      "submit": "Enviar Envio de Importação",
+      "update": "Atualizar Envio de Importação",
+      "add": "Adicionar Envio de Importação",
+      "addProduct": "Adicionar Produto",
+      "selectProduct": "Selecionar Produto",
+      "addImport": "Adicionar Importação",
+      "viewTaeStatus": "Ver Imposto e Status"
+    },
+    "success": {
+      "register": "Envio de importação adicionado com sucesso"
+    },
+    "other": {
+      "notVerified": "Sua empresa não está verificada ou foi rejeitada. A importação só pode ser adicionada após a verificação."
+    },
+    "validation": {
+      "cdNo": {
+        "required": "O número do documento de despacho é um campo obrigatório"
+      },
+      "etaDate": {
+        "required": "A data ETA é um campo obrigatório"
+      },
+      "arrivalPort": {
+        "required": "O porto de chegada é um campo obrigatório"
+      },
+      "countryId": {
+        "required": "O país de origem é um campo obrigatório"
+      },
+      "fromPort": {
+        "required": "O porto de origem é um campo obrigatório"
+      },
+      "products": {
+        "required": "A importação deve conter pelo menos um produto"
+      }
+    },
+    "table": {
+      "productName": "Produto",
+      "internalArticleCode": "Nº do Artigo",
+      "units": "Unidades",
+      "taeTotalValue": "Valor Total do Imposto (MT)",
+      "actions": "Ações"
+    }
+  },
+  "compensationRequest": {
+    "head": {
+      "add": "Adicionar Solicitação de Compensação",
+      "update": "Atualizar Solicitação de Compensação",
+      "documents": "Documentos",
+      "list": "Visão Geral das Solicitações de Compensação",
+      "view": "Solicitação de Compensação",
+      "compensation": "Compensação",
+      "addDestination": "Adicionar Novo Destino Final"
+    },
+    "label": {
+      "deliveryToEdDate": "Data de Entrega ao Destino Final",
+      "material": "Material",
+      "deliveredKgs": "KGs Entregues",
+      "edOrganisation": "Organização do Destino Final",
+      "edType": "Tipo de Destino Final",
+      "status": "Status de Verificação",
+      "search": "Pesquisar"
+    },
+    "placeholder": {
+      "deliveryToEdDate": "Data de Entrega ao Destino Final",
+      "material": "Selecione o Material",
+      "deliveredKgs": "Digite os KGs Entregues",
+      "edOrganisation": "Selecione a Organização do Destino Final",
+      "edType": "Digite o Tipo de Destino Final"
+    },
+    "button": {
+      "submit": "Enviar Solicitação de Compensação",
+      "update": "Atualizar Solicitação de Compensação",
+      "add": "Adicionar Solicitação de Compensação",
+      "addEndDestination": "Adicionar Destino Final",
+      "viewCompensationRequest": "Ver Solicitação de Compensação",
+      "compensationRequest": "Ver/Editar Solicitação de Recuperação de Materiais"
+    },
+    "other": {
+      "notVerified": "Sua empresa não está verificada ou foi rejeitada. A compensação só pode ser adicionada após a verificação."
+    },
+    "validation": {
+      "materialId": {
+        "required": "Por favor, selecione o material"
+      },
+      "deliveredKgs": {
+        "required": "Por favor, insira o peso em KG"
+      },
+      "edOrganisationId": {
+        "required": "Por favor, selecione a organização"
+      },
+      "edType": {
+        "required": "O tipo de destino final é um campo obrigatório"
+      },
+      "documents": {
+        "required": "A solicitação de compensação deve conter pelo menos um documento"
+      }
+    },
+    "tableHeader": {
+      "material": "Compensação de Materiais de Embalagem",
+      "requestedCompensationKgs": "KGs de Compensação Solicitados",
+      "compensationStatus": "Status da Compensação de KGs",
+      "actualTotalKgs": "Total Real de KGs",
+      "actualTotalTae": "Imposto Total Real (MT)",
+      "actualTotalTaePaid": "Imposto Pago (MT)",
+      "compensationViable": "Compensação Viável",
+      "repaymentStatus": "Status do Reembolso"
+    },
+    "tableHeaderList": {
+      "requestedDate": "Data da Solicitação",
+      "deliveryToEdDate": "Data de Entrega ao Destino Final",
+      "material": "Material",
+      "deliveredKgs": "KG",
+      "edOrganisation": "Organização do Destino Final",
+      "documents": "Documentos Carregados",
+      "status": "Status de Verificação",
+      "actions": "Ações",
+      "documentUrl": "Documento",
+      "description": "Descrição"
+    }
+  },
+  "verifier": {
+    "head": {
+      "verifierName": "Nome do Verificador",
+      "verifierId": "ID do Verificador",
+      "firstLogin": "Primeiro Login",
+      "lastLogin": "Último Login",
+      "tasksDone": "# de Tarefas Concluídas",
+      "avgTaskMonth": "Média de Tarefas/Mês",
+      "actions": "Ações",
+      "list": "Lista de Verificadores",
+      "taskLog": "Registro de Tarefas",
+      "date": "Data",
+      "company": "Empresa",
+      "objectType": "Tipo de Objeto",
+      "objectName": "Nome do Objeto",
+      "status": "Status",
+      "comment": "Comentário",
+      "companies": "Empresas",
+      "product": "Produto",
+      "products": "Produtos",
+      "articleNo": "Nº do Artigo",
+      "hsCode": "Código HS",
+      "taePaymentStatus": "Status do Pagamento de Impostos",
+      "productionPlan": "Plano de Produção",
+      "productionPlans": "Planos de Produção",
+      "imports": "Importações",
+      "endDestination": "Destino Final",
+      "compensation": "Compensação",
+      "verificationStatus": "Status de Verificação"
+    },
+    "table": {
+      "dateOfRequest": "Data da Solicitação",
+      "dateOfDeliveryEndDestination": "Data de Entrega ao Destino Final",
+      "material": "Material",
+      "kg": "KG",
+      "endDestinationOrganisation": "Organização do Destino Final",
+      "uploadedDocuments": "Documentos Carregados",
+      "docDescription": "Descrição do Documento",
+      "verificationStatus": "Status de Verificação",
+      "product": "Produto",
+      "description": "Descrição",
+      "plan": "Plano de Produção {year} (Unidades)",
+      "actuals": "Produção Real {year} (Unidades)",
+      "actions": "Ações",
+      "paymentType": "Tipo de Pagamento",
+      "date": "Data",
+      "taeValueMT": "Valor do Imposto (MT)",
+      "status": "Status",
+      "taeDueValueMT": "Valor do Imposto Devido (MT)",
+      "deadline": "Prazo",
+      "remindOwner": "Lembrar Proprietário",
+      "edOrgStatus": "Status do Destino Final",
+      "productName": "Nome do Produto",
+      "hsCode": "Código HS",
+      "companyName": "Nome da Empresa",
+      "productCount": "#Produtos",
+      "planYear": "Ano",
+      "createdAt": "Data de Criação"
+    },
+    "label": {
+      "search": "Pesquisar",
+      "verified": "Verificado"
+    },
+    "button": {
+      "verify": "Verificar",
+      "showProducts": "Ver Produtos desta Empresa",
+      "approve": "Aprovar",
+      "reject": "Rejeitar",
+      "confirmReject": "Confirmar",
+      "cancel": "Cancelar",
+      "cleared": "Liberado",
+      "delayed": "Atrasado",
+      "notYetCleared": "Ainda não liberado"
+    },
+    "success": {
+      "statusChanged": "Status atualizado com sucesso",
+      "approved": "Aprovado com sucesso",
+      "rejected": "Rejeitado com sucesso"
+    },
+    "error": {
+      "failedToGetVerifierList": "Falha ao obter a lista de verificadores",
+      "failedToFetchCompany": "Falha ao buscar Empresa",
+      "selectCompany": "Por favor, selecione uma empresa no menu suspenso",
+      "failedToApprove": "Falha ao aprovar",
+      "failedToreject": "Falha ao rejeitar"
+    },
+    "validation": {
+      "reason": {
+        "required": "O motivo é obrigatório",
+        "string": "Digite um motivo válido"
+      }
+    },
+    "dialog": {
+      "title": "Verificar Destino Final",
+      "message": "Tem certeza de que deseja verificar este destino final?",
+      "rejectTitle": "Motivo da Rejeição",
+      "productionPlanTitle": "Verificar Plano de Produção"
+    },
+    "taePayments": {
+      "companyName": "Nome da Empresa",
+      "paymentType": "Tipo de Pagamento",
+      "createdAt": "Data",
+      "total_value": "Valor do Imposto (MT)",
+      "paystatus": "Status do Pagamento",
+      "pendingTAE": "Valor do Imposto Pendente (MT)",
+      "deadline": "Prazo",
+      "remindOwner": "Lembrar Proprietário"
+    }
+  },
+  "admin": {
+    "head": {
+      "inviteUser": "Convidar Usuários"
+    },
+    "label": {
+      "email": "Email",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "role": "Função",
+      "status": "Status",
+      "verifier": "Verificador",
+      "company": "Empresa",
+      "userName": "Nome de Usuário",
+      "actions": "Ações",
+      "paymentType": "Tipo de Pagamento",
+      "dueDate": "Data de Vencimento",
+      "paymentStatus": "Status do Pagamento",
+      "taeValue": "Valor do Imposto (MT)"
+    },
+    "placeholder": {
+      "email": "Email",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "role": "Função",
+      "status": "Status"
+    },
+    "button": {
+      "inviteUser": "Convidar Usuários"
+    },
+    "success": {
+      "userInvited": "Usuário convidado com sucesso"
+    },
+    "validation": {
+      "firstName": {
+        "string": "O nome deve ser um texto",
+        "min": "O nome deve ter um comprimento mínimo de {min}",
+        "max": "O nome deve ter um comprimento máximo de {max}",
+        "required": "O nome é um campo obrigatório",
+        "pattern": "O nome deve conter apenas letras"
+      },
+      "lastName": {
+        "string": "O sobrenome deve ser um texto",
+        "min": "O sobrenome deve ter um comprimento mínimo de {min}",
+        "max": "O sobrenome deve ter um comprimento máximo de {max}",
+        "required": "O sobrenome é um campo obrigatório",
+        "pattern": "O sobrenome deve conter apenas letras"
+      },
+      "email": {
+        "email": "O email deve ser válido",
+        "required": "O email é um campo obrigatório",
+        "pattern": "O email deve conter apenas letras"
+      },
+      "role": {
+        "valid": "Por favor, selecione uma função válida",
+        "required": "A função é um campo obrigatório"
+      }
+    }
+  },
+  "myaccount": {
+    "head": {
+      "myaccount": "Minha Conta"
+    },
+    "label": {
+      "profileimage": "Imagem de Perfil"
+    }
+  },
+  "endDestination": {
+    "head": {
+      "list": "Destino Final",
+      "add": "Adicionar Novo Destino Final",
+      "edit": "Editar Destino Final",
+      "view": "Detalhes do Destino Final"
+    },
+    "label": {
+      "orgName": "Nome da Organização",
+      "orgType": "Tipo de Organização",
+      "companyRegNo": "Número de Registro da Empresa",
+      "companyId": "Empresa",
+      "requestor": "Solicitante",
+      "today": "Data de Hoje",
+      "phone": "Telefone",
+      "email": "Email",
+      "contactPerson": "Pessoa de Contato",
+      "address": "Endereço",
+      "city": "Cidade",
+      "country": "País",
+      "status": "Status de Verificação",
+      "createdAt": "Data de Criação"
+    },
+    "placeholder": {
+      "orgName": "Digite o nome da organização",
+      "orgType": "Selecione o tipo de organização",
+      "companyRegNo": "Digite o número de registro da empresa",
+      "companyId": "Empresa",
+      "requestor": "Solicitante",
+      "today": "Data de Hoje",
+      "phone": "Digite o telefone",
+      "email": "Digite o email",
+      "contactPerson": "Digite a pessoa de contato",
+      "address": "Digite o endereço",
+      "city": "Selecione a cidade",
+      "country": "Selecione o país"
+    },
+    "button": {
+      "add": "Adicionar Novo Destino Final",
+      "save": "Salvar",
+      "update": "Atualizar"
+    },
+    "validation": {
+      "orgName": {
+        "required": "Por favor, digite o nome da organização"
+      },
+      "orgType": {
+        "required": "Por favor, selecione o tipo de organização"
+      },
+      "companyRegNo": {
+        "required": "Por favor, digite o número de registro da empresa"
+      },
+      "phone": {
+        "required": "Por favor, digite o telefone",
+        "pattern": "Digite um número de telefone válido"
+      },
+      "email": {
+        "required": "Por favor, digite o email"
+      },
+      "contactPerson": {
+        "required": "Por favor, digite a pessoa de contato"
+      },
+      "address": {
+        "required": "Por favor, digite o endereço"
+      },
+      "city": {
+        "required": "Por favor, selecione a cidade"
+      },
+      "country": {
+        "required": "Por favor, selecione o país"
+      }
+    }
+  },
+  "taeFees": {
+    "head": {
+      "tae": "Taxa de Imposto/Material"
+    },
+    "label": {
+      "profileimage": "Imagem de Perfil"
+    },
+    "table": {
+      "material": "Material",
+      "taeFeeMtTon": "Taxa MT/Ton",
+      "impactFactor": "Fator de Impacto",
+      "taeFeeMtKg": "Taxa MT/KG"
+    }
+  },
+  "users": {
+    "head": {
+      "users": "Usuários"
+    },
+    "label": {
+      "status": "Status do Usuário"
+    }
+  },
+  "taePayments": {
+    "head": {
+      "taePayments": "Pagamentos de Impostos"
+    },
+    "label": {
+      "profileimage": "Imagem de Perfil"
+    },
+    "other": {
+      "notVerified": "Sua empresa não está verificada ou foi rejeitada. Os pagamentos de impostos só podem ser visualizados após a verificação."
+    }
+  },
+  "imageUpload": {
+    "info": {
+      "isAllowedType": "Apenas arquivos PDF e imagens (JPEG, PNG) são permitidos",
+      "isLt5M": "O arquivo é muito grande",
+      "isJpgOrPng": "Tipo de imagem inválido",
+      "isLt1MForPDF": "O tamanho do arquivo PDF deve ser inferior a 1 MB"
+    }
+  }
+}

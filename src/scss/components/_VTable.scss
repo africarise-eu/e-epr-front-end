@@ -1,0 +1,9 @@
+.v-table > .v-table__wrapper > table > thead > tr > th {
+    font-weight: bold;
+    background:rgba(0,0,0,0.025);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+.v-table > .v-table__wrapper > table > tbody > tr > td {
+    border-bottom: thin solid solid rgba(0, 0, 0, 0.05);
+}     

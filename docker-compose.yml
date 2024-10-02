@@ -1,0 +1,5 @@
+name: tae-ui-development
+services:
+  app:
+    build: .
+    restart: always

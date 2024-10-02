@@ -1,0 +1,1033 @@
+{
+  "common":{
+    "close": "Close",
+    "logout":"Logout",
+    "viewProfile": "View Profile",
+    "editProfile": "Edit Profile",
+    "cancel": "Cancel",
+    "back": "Back",
+    "save": "Save",
+    "confirm": "Confirm",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "label": {
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "companyName":"Company",
+      "totaltae":"Total Tax value ($)"
+    },
+    "packagingMaterial":{
+      "Plastic": "Plastic",
+      "Glass": "Glass",
+      "Paper/Cardboard": "Paper/Cardboard",
+      "Cardboard": "Cardboard",
+      "Metal": "Metal",
+      "Multilayer": "Multilayer",
+      "Biodegradable": "Biodegradable",
+      "Hazardous": "Hazardous",
+      "Others": "Others",
+      "info":"Information about packing material"
+    },
+    "placeholder":{
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email"
+    },
+    "name":"Name",
+    "email":"Email",
+    "status":"Status"
+  },
+  "Email": {
+    "VerifyEmail": "Verify Email"
+  },
+  "status": {
+    "pending": "Pending",
+    "verified": "Verified",
+    "rejected": "Rejected",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "improved":"Improved",
+    "approved":"Approved",
+    "delayed":"Delayed",
+    "draft":"Draft",
+    "notyetcleared":"Not yet cleared",
+    "cleared":"Cleared",
+    "Nil":"Nil"
+  },
+  "menu":{
+    "title":{
+      "dashboard":"Dashboard",
+      "myAccount":"My Account",
+      "companies":"Companies",
+      "products":"Products",
+      "productionPlans":"Production Plans",
+      "imports":"Imports",
+      "compensations":"Compensations",
+      "myCompany": "My Company",
+      "viewProfile": "View Profile",
+      "team":"Team",
+      "myProducts":"My Products",
+      "viewAll": "View All",
+      "addProduct":"Add Product",
+      "production": "Production",
+      "verifiers":"Verifiers",
+      "messages":"Messages",
+      "endDestinations":"End-Destinations",
+      "lateTaePayments":"Late Tax Payments",
+      "inviteUser":"Invite Users",
+      "taeFees":"Tax Fee/Material",
+      "users":"Users",
+      "taePayments":"Tax Payments"
+    }
+  },
+  "dashboard": {
+    "head": {
+      "title": "e-EPR Electronic System for Extended Producer Responsibility"
+    }
+  },
+  "authentication": {
+    "head": {
+      "signUp": "Sign Up",
+      "login":"Login",
+      "logTitle":"e-EPR Electronic System for Extended Producer Responsibility",
+      "resetPassword": "Reset Password",
+      "setPassword": "Set Password",
+      "changePassword": "Change Password",
+      "otpVerification": "OTP Verification"
+    },
+    "label": {
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "password":"Password",
+      "newPassword":"New Password",
+      "confirmPassword":"Confirm Password",
+      "currentPassword":"Current Password",
+      "company":"Company",
+      "otp":"OTP"
+    },
+    "placeholder":{
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "password":"Password",
+      "newPassword":"New Password",
+      "company":"Select a company",
+      "confirmPassword":"Confirm Password",
+      "currentPassword":"Current Password"
+    },
+    "button":{
+      "createAccount":"Create Account",
+      "login": "Login",
+      "resetPassword": "Reset Password",
+      "setPassword": "Set Password",
+      "changePassword": "Change Password",
+      "verifyOtp": "Verify OTP"
+    },
+    "link":{
+      "alreadyHaveAccount":"Already have an account?",
+      "noAccount":"Don't have an account?",
+      "forgotPassword": "Forgot Password",
+      "backToLogin": "Back to Login",
+      "resendOtp": "Resend OTP"
+    },
+    "success": {
+      "register": "User registered successfully"
+    },
+    "error":{
+      "resendOtp": "Error in resending OTP",
+      "changePasswordOtp":"Error in sending OTP for change password",
+      "logout":"Error logging out"
+    },
+    "other":{
+      "resetPasswordDescription":"Enter the new password",
+      "setPasswordDescription":"Enter your password",
+      "changePasswordDescription":"Enter the new password to change your current password",
+      "forgotPasswordDescription":"You will receive an email if the user exists in our system",
+      "otpVerificationDescription":"Check your email for the OTP",
+      "resendOtpDescription":"Resend OTP in {time}"
+    },
+    "validation": {
+      "firstName": {
+        "string": "First name should be a text",
+        "min": "First name should have a minimum length of {min}",
+        "max": "First name should have a maximum length of {max}",
+        "required": "First name is a required field",
+        "pattern": "First name should only contain alphabets"
+      },
+      "lastName": {
+        "string": "Last name should be a text",
+        "min": "Last name should have a minimum length of {min}",
+        "max": "Last name should have a maximum length of {max}",
+        "required": "Last name is a required field",
+        "pattern": "Last name should only contain alphabets"
+      },
+      "email": {
+        "email": "Email must be a valid email",
+        "required": "Email is a required field",
+        "pattern": "Email should only contain alphabets"
+      },
+      "currentPassword":{
+        "min":"Current Password should have a minimum length of {min}",
+        "max":"Current Password should have a maximum length of {max}",
+        "required":"Current Password is a required field"
+      },
+      "password":{
+        "min":"Password should have a minimum length of {min}",
+        "max":"Password should have a maximum length of {max}",
+        "required":"Password is a required field",
+        "invalid": "Invalid credentials",
+        "pattern":"Password must contain at least one uppercase letter, one lowercase letter, and one special character"
+      },
+      "confirmPassword":{
+        "min":"Confirm password should have a minimum length of {min}",
+        "max":"Confirm password should have a maximum length of {max}",
+        "required":"Confirm password is a required field",
+        "only": "Confirm password should be same as password"
+      },
+      "otp":{
+        "min":"OTP should have a minimum length of {min}",
+        "max":"OTP should have a maximum length of {max}",
+        "required":"OTP is a required field"
+      },
+      "company": {
+        "max": "Company should have a maximum length of {max}"
+      }
+    }
+  },
+  "product": {
+    "head":{
+      "editProduct": "Edit Product",
+      "addProduct": "Add Product",
+      "productList": "Products",
+      "viewProduct": "Product Details"
+    },
+    "label": {
+      "product": "Product",
+      "productName": "Product Name",
+      "productCategory": "HS Code",
+      "image": "Photo",
+      "production": "Location",
+      "manufacturerCompany": "Manufacturer Company",
+      "countryOfManufacture": "Country of Manufacture",
+      "brandName": "Brand Name",
+      "productModelTypeVolume": "Product Model / Type / Volume",
+      "barcode": "Barcode",
+      "internalArticleCode": "Internal Article Code",
+      "status": "Verification Status",
+      "importStatus": "Verification Status",
+      "packingMaterials": "Packing Materials",
+      "packingMaterialsCount": "#Materials",
+      "search":"Search",
+      "actions":"Actions"
+    },
+    "placeholder": {
+      "productName": "Enter product name",
+      "productCategory": "Enter HS code",
+      "image": "Upload photo",
+      "production": "Enter production details",
+      "manufacturerCompany": "Enter manufacturer company",
+      "countryOfManufacture": "Select country of manufacture",
+      "brandName": "Enter brand name",
+      "productModelTypeVolume": "Enter model/type/volume",
+      "barcode": "Enter barcode",
+      "internalArticleCode": "Enter internal article code"
+    },
+    "other":{
+      "notVerified":"Your company is currently not verified or has been rejected. Product can only be added after verification."
+    },
+    "button": {
+      "submitProduct": "Submit Product",
+      "updateProduct": "Update Product",
+      "addProduct": "Add Product"
+    },
+    "success": {
+      "register": "Product registered successfully"
+    },
+    "validation": {
+      "productName": {
+        "required": "Product name is a required field"
+      },
+      "productCategory": {
+        "required": "Product category is a required field",
+        "maxlength":"Product Category must be with 12 digits."
+      },
+      "production": {
+        "required": "Production Location is a required field"
+      },
+      "image": {
+        "required": "Photo is a required field"
+      },
+      "manufacturerCompany": {
+        "required": "Manufacturer company is a required field"
+      },
+      "countryOfManufacture": {
+        "required": "Country of manufacture is a required field"
+      },
+      "brandName": {
+        "required": "Brand name is a required field"
+      },
+      "productModelTypeVolume": {
+        "required": "Product model/type/volume is a required field"
+      },
+      "barcode": {
+        "required": "Barcode is a required field"
+      },
+      "internalArticleCode": {
+        "required": "Internal article code is a required field"
+      },
+      "packingMaterials": {
+        "required": "Packing materials must contain atleast one item",
+        "meterialRequired": "Packing material is required",
+        "weightRequired": "Weight is required"
+      }
+
+    },
+    "error":{
+      "failedGetByProductId": "Failed to fetch product by id"
+    }
+  },
+  "packingMaterial": {
+    "head": {
+      "packingMaterial": "Primary Packaging Material",
+      "login": "Login",
+      "resetPassword": "Reset Password"
+    },
+    "table": {
+      "material": "Material",
+      "weight": "Weight in grams (1000 grams is 1 kg.)",
+      "TAE_KG": "Tax per KG (MT)",
+      "TAE_Total": "Tax total (MT)",
+      "verification": "Verification Status",
+      "actions": "Actions",
+      "total": "Total"
+    },
+    "label": {
+      "material": "Material",
+      "weight": "Weight in grams (1000 grams is 1 kg.)",
+      "TAE_KG": "Tax per KG (MT)",
+      "TAE_Total": "Total Tax (MT)",
+      "status": "Status"
+    },
+    "placeholder": {
+      "material": "Enter material type",
+      "weight": "Enter weight",
+      "TAE_KG": "Enter Tax per KG",
+      "TAE_Total": "Enter total Tax",
+      "status": "Enter status"
+    },
+    "button": {
+      "save": "Save Packing Material",
+      "update": "Update Packing Material",
+      "add": "Add",
+      "add-packaging-meterial":"Add Packaging Material"
+    },
+    "success": {
+      "create": "Packing material added successfully",
+      "update": "Packing material updated successfully"
+    },
+    "validation": {
+      "material": {
+        "string": "Material should be a text",
+        "required": "Material is a required field"
+      },
+      "weight": {
+        "number": "Weight should be a number",
+        "required": "Weight is a required field"
+      },
+      "TAE_KG": {
+        "number": "Tax per KG should be a number",
+        "required": "Tax per KG is a required field"
+      },
+      "TAE_Total": {
+        "number": "Total Tax should be a number",
+        "required": "Total Tax is a required field"
+      },
+      "status": {
+        "string": "Status should be a text",
+        "required": "Status is a required field"
+      }
+    }
+  },
+  "company": {
+    "head":{
+      "companyProfile": "Company Profile",
+      "editCompanyProfile": "Edit Company Profile",
+      "addCompanyProfile": "Add Company Profile",
+      "team":"Team",
+      "inviteUser":"Invite Members",
+      "filterTeam":"Filter Team",
+      "reject":"Reject",
+      "notYetCleared":"Not Yet Cleared"
+    },
+    "label": {
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "companyName":"Company Name",
+      "logo": "Logo",
+      "person":"Person",
+      "type":"Type",
+      "registrationNumber":"Registration Number",
+      "activityCode":"RLEA / Industry Activity Code",
+      "address":"Address",
+      "city":"City",
+      "country":"Country",
+      "companyPhoneNumber":"Company Phone Number",
+      "website":"Website",
+      "bankAccount":"Bank Account",
+      "importer":"Importer",
+      "producer":"Producer",
+      "status":"Verification Status",
+      "search":"Search"
+    },
+    "placeholder":{
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "email":"Email",
+      "companyName":"Company Name",
+      "person":"Person",
+      "type":"Type",
+      "registrationNumber":"Registration Number",
+      "activityCode":"RLEA / Industry Activity Code",
+      "address":"Address",
+      "city":"City",
+      "country":"Country",
+      "companyPhoneNumber":"Company Phone Number",
+      "website":"Website",
+      "bankAccount":"Bank Account",
+      "importer":"Importer",
+      "producer":"Producer",
+      "status":"Status"
+    },
+    "button":{
+      "createCompany":"Create Company",
+      "clear": "Clear",
+      "updateCompany":"Update Company",
+      "inviteMembers":"Invite Members",
+      "filter":"Filter"
+    },
+    "success":{
+      "register":"Company registered successfully"
+    },
+    "other":{
+      "editCompanyProfileDescription":"Edit your company profile",
+      "noCompanyDetails":"No company details found. Please create a company",
+      "noUserList":"No member list found. Please invite members",
+      "notVerified":"Your company is not verified, you can invite a member only after your company is verified",
+      "clickToCopy": "Click to copy link"
+    },
+    "error":{
+      "failedToFetch": "Failed to fetch initial data:"
+    },
+    "validation":{
+      "logo":{
+        "required":"Logo is a required field"
+      },
+      "companyName":{
+        "string":"Company name should be a text",
+        "min":"Company name should have a minimum length of {min}",
+        "max":"Company name should have a maximum length of {max}",
+        "required":"Company name is a required field",
+        "pattern":"Company name should only contain alphabets"
+      },
+      "type":{
+        "required":"Type is a required field"
+      },
+      "registrationNumber":{
+        "string":"Enter a valid Register number",
+        "min":"Register number should have a minimum length of {min}",
+        "max":"Register number should have a maximum length of {max}",
+        "required":"Register number is a required field"
+      },
+      "activityCode":{
+        "string":"Enter a valid Activity code",
+        "min":"Activity code should have a minimum length of {min}",
+        "max":"Activity code should have a maximum length of {max}",
+        "required":"Activity code is a required field"
+      },
+      "address":{
+        "string":"Address should be a text",
+        "min":"Address should have a minimum length of {min}",
+        "max":"Address should have a maximum length of {max}",
+        "required":"Address is a required field"
+      },
+      "city":{
+        "string":"Select a valid city",
+        "required":"City is a required field"
+      },
+      "country":{
+        "string":"Select a valid country",
+        "required":"Country is a required field"
+      },
+      "companyPhoneNumber":{
+        "string":"Enter a valid company phone number",
+        "min":"Company phone number should have a minimum length of {min}",
+        "max":"Company phone number should have a maximum length of {max}",
+        "required":"Company phone number is a required field",
+        "pattern":"Enter a valid company phone number "
+      },
+      "website":{
+        "string":"Provide a valid website",
+        "required":"Website is a required field",
+        "uri":"Provide a valid website"
+      },
+      "bankAccount":{
+        "string":"Enter a valid bank account number",
+        "max":"Bank account should have a maximum length of {max}"
+      }
+    }
+  },
+  "production":{
+    "head":{
+      "productionPlan":"Production Plan",
+      "addProduction":"Add Production",
+      "updateProduction":"Update Production",
+      "selectProducts":"Select Products for Production Plan",
+      "taeStatus":"Tax Payment & Status",
+      "taeWeight": "Tax Weight",
+      "taeMt": "Tax (MT)",
+      "add":"Add",
+      "edit":"Edit",
+      "production":"Production"
+    },
+    "table": {
+      "product": "Product",
+      "internalArticleCode": "Article No.",
+      "status": "Verification Status",
+      "plan": "Production Plan {year} (Units)",
+      "planStatus": "Plan Verification Status {year}",
+      "actuals": "Actual Production {year} (Units)",
+      "actualsStatus": "Actual Verification Status {year}",
+      "actions": "Actions",
+      "title": "Title",
+      "description": "Description",
+      "planYear": "Plan",
+      "previousYear":"Actuals"
+    },
+    "meterialTable": {
+      "meterialKG": "Materials (KGs)",
+      "meterialMT": "Materials (MT)",
+      "plan": "Production Plan {year}(Units)",
+      "taeStatus": "Plan Verification Status {year}",
+      "actual": "Actual Production {year}(Units)",
+      "taePayStatus": "Actual Tax Pay Status {year}",
+      "planTae": "Estimated Tax {year}",
+      "actualTae" : "Tax to Pay {year}"
+    },
+    "button":{
+      "addProduct":"Add Product",
+      "selectProduct":"Select Product",
+      "submitForApproval":"Submit for Approval",
+      "saveDraft":"Save Draft",
+      "viewProductionUnits":"View Production Units"
+    },
+    "other":{
+      "noProductSelected":"No product selected",
+      "noProductionAdded":"No production added",
+      "notVerified":"Your company is currently not verified or has been rejected. Production plan can only be added after verification."
+    },
+    "error":{
+      "addProductToSaveDraft":"Please add products to save as draft",
+      "addProductToSubmit": "Please add products to submit for approval",
+      "validValues":"Please enter a valid number in plan and actual",
+      "allProductsApproved":"All productions are already approved"
+    },
+    "validation":{
+      "plan":{
+        "number":"Enter a valid number in plan",
+        "required":"Plan is a required field",
+        "min": "Negative values are not allowed"
+      },
+      "actual":{
+        "number":"Enter a valid number in actual",
+        "required":"Actual is a required field",
+        "min": "Negative values are not allowed"
+      }
+    }
+  },
+  "selectProduct": {
+    "table": {
+      "product": "Product",
+      "manufacturerCompany": "Manufacturer Company",
+      "productCategory": "HS Code"
+    }
+  },
+  "apiResponse":{
+      "401":"Unauthorized",
+      "403":"Forbidden",
+      "404":"Not found",
+      "500":"Server error",
+      "errorOccurred":"An error occurred",
+      "networkError":"Network error"
+  },
+  "logHistory":{
+    "title":"Verification History",
+    "buttnText":"Verification History",
+    "tableHeaders": {
+      "companyName": "Company Name",
+      "userName": "User Name",
+      "fromStatus": "From Status",
+      "toStatus": "To Status",
+      "comment": "Comment",
+      "createdAt": "Date"
+    }
+  }, 
+  "import": {
+    "head":{
+      "edit": "Edit Import Shipment",
+      "add": "Add Import Shipment",
+      "list": "Import Shipments",
+      "view": "Import Tax Status",
+      "productDetails":"Product Details",
+      "selectProducts":"Select Products for Import Shipment",
+      "taeStatus":"Tax Payment & Status"
+    },
+    "label": {
+      "cdNo": "Import Clearance Document No.",
+      "etaDate": "Import ETA Date",
+      "arrivalPort": "Arrival Port",
+      "countryId": "From Country",
+      "fromPort": "From Port",
+      "search":"Search",
+      "year": "Year",
+      "status":"Verification Status",
+      "payStatus":"Pay Status",
+      "units":"Units",
+      "product":"Product",
+      "internalArticleCode":"Article No.",
+      "taeTotalValue":"Tax Total (MT)",
+      "actions":"Actions",     
+      "productUnits":"#Products",
+      "taeValue":"Tax Value (MT)",
+      "materials":"Materials",
+      "totalWeightKgs":"Imported KGs",
+      "importTaeTotal":"Import Tax (MT)",
+      "taepayStatus":"{year} Pay Status",
+      "company":"Company"
+
+    },
+    "placeholder": {
+      "cdNo": "Enter Import Clearance Document No.",
+      "etaDate": " Enter Import ETA Date",
+      "arrivalPort": "Enter Arrival Port",
+      "countryId": " Enter From Country",
+      "fromPort": "Enter From Port",
+      "units":"Enter units"
+    },
+    "button": {
+      "submit": "Submit Import Shipment",
+      "update": "Update Import Shipment",
+      "add": "Add Import Shipment",
+      "addProduct":"Add Product",
+      "selectProduct":"Select Product",
+      "addImport":"Add Import",
+      "viewTaeStatus":"view Tax & Status"
+    },
+    "success": {
+      "register": "Import shipment added successfully"
+    },
+    "other":{
+      "notVerified":"Your company is currently not verified or has been rejected. Import can only be added after verification."
+    },
+    "validation": {
+      "cdNo": {
+        "required": "CD No. is a required field"
+      },
+      "etaDate": {
+        "required": "ETA date is a required field"
+      },
+      "arrivalPort": {
+        "required": "Arrival port is a required field"
+      },
+      "countryId": {
+        "required": "From country is a required field"
+      },
+      "fromPort": {
+        "required": "From port is a required field"
+      },
+      "products": {
+        "required": "Import must contain atleast one product"
+      }
+    },
+    "table":{
+      "productName": "Product",
+      "internalArticleCode": "Article No.",
+      "units": "Units",
+      "taeTotalValue": "Tax total (MT)",
+      "actions": "Actions"
+    }
+  },
+  "compensationRequest": {
+    "head":{
+      "add": "Add Compensation Request",
+      "update": "Update Compensation Request",
+      "documents":" Documents",
+      "list":"Compensation Requests Overview",
+      "view":"Compensation Request",
+      "compensation":"Compensation",
+      "addDestination":"Add New End-Destination"
+    },
+    "label":{
+      "deliveryToEdDate":"Date of Delivery to End Destination",
+      "material":"Material",
+      "deliveredKgs":"KGs Delivered",
+      "edOrganisation":"End Destination Organisation",
+      "edType":"End Destination Type",
+      "status":"Verification Status",
+      "search": "Search"
+    },
+    "placeholder":{
+      "deliveryToEdDate":"Date of Delivery to End Destination",
+      "material":"Select Material",
+      "deliveredKgs":"Enter KGs Delivered",
+      "edOrganisation":" Select End Destination organisation",
+      "edType":"Enter End Destination Type"
+    },
+    "button": {
+      "submit": "Submit Compensation Request",
+      "update": "Update Compensation Request",
+      "add": "Add Compensation Request",
+      "addEndDestination":"Add End-Destination",
+      "viewCompensationRequest":"View Compensation Request",
+      "compensationRequest":"View / Edit Material Recovery Claims"
+    },
+    "other":{
+      "notVerified":"Your company is currently not verified or has been rejected. Compensation can only be added after verification."
+    },
+    "validation": {
+      "materialId": {
+        "required": "Please select material"
+      },
+      "deliveredKgs": {
+        "required": "Please enter weight in KG"
+      },
+      "edOrganisationId": {
+        "required": "Please select Organisation"
+      },
+      "edType": {
+        "required": "From country is a required field"
+      },
+      "documents": {
+        "required": "Compensation request must contain atleast one document"
+      }
+    },
+    "tableHeader":{
+      "material":"Packaging Materials Compensation",
+      "requestedCompensationKgs":"KG Compensation Requested",
+      "compensationStatus":"KG Compensation Status",
+      "actualTotalKgs":"KG Total Actuals",
+      "actualTotalTae":"Tax Total Actuals (MT)",
+      "actualTotalTaePaid":"Tax Paid (MT)",
+      "compensationViable":"Compensation Viable",
+      "repaymentStatus":"Repayment Status"
+    },
+    "tableHeaderList":{
+      "requestedDate":"Date of Request",
+      "deliveryToEdDate":"Date of Delivery End-Destination",
+      "material":"Material",
+      "deliveredKgs":"KG",
+      "edOrganisation":"End-Destination Organisation",
+      "documents":"Uploaded Documents",
+      "status":"Verification status",
+      "actions":"Actions",
+      "documentUrl":"Document",
+      "description":"Description"
+    }
+  },
+  "verifier":{
+    "head":{
+      "verifierName":"Verifier Name",
+      "verifierId":"Verifier ID",
+      "firstLogin":"First Login",
+      "lastLogin":"Last Login",
+      "tasksDone": "# of Tasks Done",
+      "avgTaskMonth": "Avg. Tasks/ Month",
+      "actions":"Actions",
+      "list":"Verifier List",
+      "taskLog":"Task Log",
+      "date": "Date",
+      "company":"Company",
+      "objectType":"Object Type",
+      "objectName":"Object Name",
+      "status":"Status",
+      "comment":"Comment",
+      "companies": "Companies",
+      "product":"Product",
+      "products":"Products",
+      "articleNo":"Article No.",
+      "hsCode":"HS Code",
+      "taePaymentStatus":"Tax Payment Status",
+      "productionPlan":"Production Plan",
+      "productionPlans":"Production Plans",
+      "imports":"Imports",
+      "endDestination": "End Destination",
+      "compensation":"Compensation",
+      "verificationStatus":"Verification Status"
+    },
+    "table":{
+      "dateOfRequest":"Date of Request",
+      "dateOfDeliveryEndDestination":"Date of Delivery to End- Destination",
+      "material":"Material",
+      "kg":"KG",
+      "endDestinationOrganisation":"End- Destination Organisation",
+      "uploadedDocuments":"Uploaded Documents",
+      "docDescription":"Doc Description",
+      "verificationStatus":"Verification Status",
+      "product":"Product",
+      "description":"Description",
+      "plan": "Production Plan {year}(Units)",
+      "actuals":"Actual Production {year}(Units)",
+      "actions":"Actions",
+      "paymentType":"Payment Type",
+      "date": "Date",
+      "taeValueMT":"Tax Value (MT)",
+      "status":"Status",
+      "taeDueValueMT":"Tax Due Value (MT)",
+      "deadline": "Deadline",
+      "remindOwner": "Remind Owner",
+      "edOrgStatus" : "End Destination Status",
+      "productName":"Product Name",
+      "hsCode":"HS Code",
+      "companyName":"Company",
+      "productCount":"#Products",
+      "planYear":"Year",
+      "createdAt":"Date"
+
+    },
+    "label":{
+      "search":"Search",
+      "verified":"Verified"
+    },
+    "button":{
+      "verify":"Verify",
+      "showProducts": "View Products of this Company",
+      "approve":"Approve",
+      "reject":"Reject",
+      "confirmReject":"Confirm",
+      "cancel":"Cancel",
+      "cleared":"Cleared",
+      "delayed":"Delayed",
+      "notYetCleared":"Not Yet Cleared"
+      
+    },
+    "success":{
+      "statusChanged": "Status updated successfully",
+      "approved": "Approved successfully",
+      "rejected":"Rejected successfully"
+
+    },
+    "error":{
+      "failedToGetVerifierList": "Failed to get verifier list",
+      "failedToFetchCompany": "Failed to fetch Company",
+      "selectCompany": "Please select a company from the dropdown",
+      "failedToApprove":"Failed to approve",
+      "failedToreject":"Failed to reject"
+    },
+    "validation":{
+      "reason":{
+        "required": "Reason is required",
+        "string":"Enter a valid reason"
+      }
+    },
+    "dialog":{
+      "title": "Verify End Destination",
+      "message": "Are you sure you want to verify this end destination?",
+      "rejectTitle": "Reason for Rejection",
+      "productionPlanTitle": "Verify Production Plan"
+    },
+    "taePayments":{
+      "companyName":"Company Name",
+      "paymentType":"Payment Type",
+      "createdAt":"Date",
+      "total_value":"Tax Value (MT)",
+      "paystatus":"Payment Status",
+      "pendingTAE":"Pending Tax Value (MT)",
+      "deadline":"Deadline",
+      "remindOwner":"Remind Owner"
+    }
+  },
+  "admin":{
+    "head":{
+      "inviteUser":"Invite Users"
+    },
+    "label":{
+      "email":"Email",
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "role":"Role",
+      "status":"Status",
+      "verifier":"Verifier",
+      "company":"Company",
+      "userName":"Username",
+      "actions":"Actions",
+      "paymentType":"Payment Type",
+      "dueDate":"Due Date",
+      "paymentStatus":"Payment Status",
+      "taeValue":"Tax Value (MT)"
+
+    },
+    "placeholder":{
+      "email":"Email",
+      "firstName":"First Name",
+      "lastName":"Last Name",
+      "role":"Role",
+      "status":"Status"
+    },
+    "button":{
+      "inviteUser":"Invite Users"
+    },
+    "success":{
+      "userInvited":"User invited successfully"
+    },
+    "validation": {
+      "firstName": {
+        "string": "First name should be a text",
+        "min": "First name should have a minimum length of {min}",
+        "max": "First name should have a maximum length of {max}",
+        "required": "First name is a required field",
+        "pattern": "First name should only contain alphabets"
+      },
+      "lastName": {
+        "string": "Last name should be a text",
+        "min": "Last name should have a minimum length of {min}",
+        "max": "Last name should have a maximum length of {max}",
+        "required": "Last name is a required field",
+        "pattern": "Last name should only contain alphabets"
+      },
+      "email": {
+        "email": "Email must be a valid email",
+        "required": "Email is a required field",
+        "pattern": "Email should only contain alphabets"
+      },
+      "role": {
+        "valid": "Please select a valid role",
+        "required": "Role is a required field"
+      }
+    }
+  },
+  "myaccount":{
+    "head":{
+      "myaccount": "My Account"
+    },
+    "label":{
+      "profileimage":"Profile Image"
+    }
+  },
+  "endDestination": {
+    "head":{
+      "list": "End Destination",
+      "add": "Add New End Destination",
+      "edit": "Edit End Destination",
+      "view": "End Destination Details"
+    },
+    "label":{
+      "orgName":"Organisation name",
+      "orgType":"Organisation type",
+      "companyRegNo":"Company registration number",
+      "companyId":"Company",
+      "requestor":"Requestor",
+      "today":"Today date",
+      "phone":"Phone",
+      "email":"Email",
+      "contactPerson":"Contact Person",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "status": "Verification Status",
+      "createdAt": "Created Date"
+    },
+    "placeholder":{
+      "orgName":"Enter organisation name",
+      "orgType":"Select organisation type",
+      "companyRegNo":"Enter company registration number",
+      "companyId":"Company",
+      "requestor":"Requestor",
+      "today":"Today date",
+      "phone":"Enter phone",
+      "email":"Enter email",
+      "contactPerson":"Enter contact person",
+      "address": "Enter address",
+      "city": "Select city",
+      "country": "Select country"
+    },
+    "button": {
+      "add": "Add New End Destination",
+      "save": "Save",
+      "update": "Update"
+    },
+    "validation": {
+      "orgName": {
+        "required": "Please enter organisation name"
+      },
+      "orgType": {
+        "required": "Please select organisation type"
+      },
+      "companyRegNo": {
+        "required": "Please enter Company registration number"
+      },
+      "phone": {
+        "required": "Please enter Phone",
+        "pattern":"Enter a valid phone number"
+      },
+      "email": {
+        "required": "Please enter email"
+      },
+      "contactPerson": {
+        "required": "Please enter contact Person"
+      },
+      "address": {
+        "required": "Please enter address"
+      },
+      "city": {
+        "required": "Please select city"
+      },
+      "country": {
+        "required": "Please select country"
+      }
+    }
+  },
+  "taeFees":{
+    "head":{
+      "tae": "Tax Fee/Material"
+    },
+    "label":{
+      "profileimage":"Profile Image"
+    },
+    "table": {
+      "material": "Material",
+      "taeFeeMtTon": "Tax MT/Ton",
+      "impactFactor": "Impact Factor",
+      "taeFeeMtKg": "Tax MT/KG"
+    }
+  },
+  "users":{
+    "head":{
+      "users": "Users"
+    },
+    "label":{
+      "status":"User status"
+    }
+  },
+  "taePayments":{
+    "head":{
+      "taePayments": "Tax Payments"
+    },
+    "label":{
+      "profileimage":"Profile Image"
+    },
+    "other": {
+      "notVerified":"Your company is currently not verified or has been rejected. Tax payments can only be view after verification."
+    }
+  },
+  "imageUpload":{
+    "info":{
+      "isAllowedType": "Only PDF and image files (JPEG, PNG) are allowed",
+      "isLt5M":"file is too large",
+      "isJpgOrPng":"Invalid image type",
+      "isLt1MForPDF": "The PDF file size must be less than 1 MB"
+    }
+  }
+}
