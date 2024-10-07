@@ -16,7 +16,7 @@
       "lastName":"Last Name",
       "email":"Email",
       "companyName":"Company",
-      "totaltae":"Total Tax value ($)"
+      "totaltae":"Total Fee value ($)"
     },
     "packagingMaterial":{
       "Plastic": "Plastic",
@@ -59,39 +59,39 @@
   "menu":{
     "title":{
       "dashboard":"Dashboard",
-      "myAccount":"My Account",
+      "myAccount":"Account",
       "companies":"Companies",
       "products":"Products",
       "productionPlans":"Production Plans",
       "imports":"Imports",
       "compensations":"Compensations",
-      "myCompany": "My Company",
+      "myCompany": "Company",
       "viewProfile": "View Profile",
       "team":"Team",
-      "myProducts":"My Products",
+      "myProducts":"Products",
       "viewAll": "View All",
       "addProduct":"Add Product",
       "production": "Production",
       "verifiers":"Verifiers",
       "messages":"Messages",
       "endDestinations":"End-Destinations",
-      "lateTaePayments":"Late Tax Payments",
+      "lateTaePayments":"Late Fee Payments",
       "inviteUser":"Invite Users",
-      "taeFees":"Tax Fee/Material",
+      "taeFees":"Fee Fee/Material",
       "users":"Users",
-      "taePayments":"Tax Payments"
+      "taePayments":"Fee Payments"
     }
   },
   "dashboard": {
     "head": {
-      "title": "e-EPR Electronic System for Extended Producer Responsibility"
+      "title": "e-EPR Digital System for Extended Producer Responsibility"
     }
   },
   "authentication": {
     "head": {
       "signUp": "Sign Up",
       "login":"Login",
-      "logTitle":"e-EPR Electronic System for Extended Producer Responsibility",
+      "logTitle":"e-EPR Digital System for Extended Producer Responsibility",
       "resetPassword": "Reset Password",
       "setPassword": "Set Password",
       "changePassword": "Change Password",
@@ -298,8 +298,8 @@
     "table": {
       "material": "Material",
       "weight": "Weight in grams (1000 grams is 1 kg.)",
-      "TAE_KG": "Tax per KG (MT)",
-      "TAE_Total": "Tax total (MT)",
+      "TAE_KG": "Fee per KG (Euro)",
+      "TAE_Total": "Fee total (Euro)",
       "verification": "Verification Status",
       "actions": "Actions",
       "total": "Total"
@@ -307,15 +307,15 @@
     "label": {
       "material": "Material",
       "weight": "Weight in grams (1000 grams is 1 kg.)",
-      "TAE_KG": "Tax per KG (MT)",
-      "TAE_Total": "Total Tax (MT)",
+      "TAE_KG": "Fee per KG (Euro)",
+      "TAE_Total": "Total Fee (Euro)",
       "status": "Status"
     },
     "placeholder": {
       "material": "Enter material type",
       "weight": "Enter weight",
-      "TAE_KG": "Enter Tax per KG",
-      "TAE_Total": "Enter total Tax",
+      "TAE_KG": "Enter Fee per KG",
+      "TAE_Total": "Enter total Fee",
       "status": "Enter status"
     },
     "button": {
@@ -338,12 +338,12 @@
         "required": "Weight is a required field"
       },
       "TAE_KG": {
-        "number": "Tax per KG should be a number",
-        "required": "Tax per KG is a required field"
+        "number": "Fee per KG should be a number",
+        "required": "Fee per KG is a required field"
       },
       "TAE_Total": {
-        "number": "Total Tax should be a number",
-        "required": "Total Tax is a required field"
+        "number": "Total Fee should be a number",
+        "required": "Total Fee is a required field"
       },
       "status": {
         "string": "Status should be a text",
@@ -486,9 +486,9 @@
       "addProduction":"Add Production",
       "updateProduction":"Update Production",
       "selectProducts":"Select Products for Production Plan",
-      "taeStatus":"Tax Payment & Status",
-      "taeWeight": "Tax Weight",
-      "taeMt": "Tax (MT)",
+      "taeStatus":"Fee Payment & Status",
+      "taeWeight": "Fee Weight",
+      "taeMt": "Fee (Euro)",
       "add":"Add",
       "edit":"Edit",
       "production":"Production"
@@ -509,13 +509,13 @@
     },
     "meterialTable": {
       "meterialKG": "Materials (KGs)",
-      "meterialMT": "Materials (MT)",
+      "meterialMT": "Materials (Euro)",
       "plan": "Production Plan {year}(Units)",
       "taeStatus": "Plan Verification Status {year}",
       "actual": "Actual Production {year}(Units)",
-      "taePayStatus": "Actual Tax Pay Status {year}",
-      "planTae": "Estimated Tax {year}",
-      "actualTae" : "Tax to Pay {year}"
+      "taePayStatus": "Actual Fee Pay Status {year}",
+      "planTae": "Estimated Fee {year}",
+      "actualTae" : "Fee to Pay {year}"
     },
     "button":{
       "addProduct":"Add Product",
@@ -580,10 +580,10 @@
       "edit": "Edit Import Shipment",
       "add": "Add Import Shipment",
       "list": "Import Shipments",
-      "view": "Import Tax Status",
+      "view": "Import Fee Status",
       "productDetails":"Product Details",
       "selectProducts":"Select Products for Import Shipment",
-      "taeStatus":"Tax Payment & Status"
+      "taeStatus":"Fee Payment & Status"
     },
     "label": {
       "cdNo": "Import Clearance Document No.",
@@ -598,13 +598,13 @@
       "units":"Units",
       "product":"Product",
       "internalArticleCode":"Article No.",
-      "taeTotalValue":"Tax Total (MT)",
+      "taeTotalValue":"Fee Total (Euro)",
       "actions":"Actions",     
       "productUnits":"#Products",
-      "taeValue":"Tax Value (MT)",
+      "taeValue":"Fee Value (Euro)",
       "materials":"Materials",
       "totalWeightKgs":"Imported KGs",
-      "importTaeTotal":"Import Tax (MT)",
+      "importTaeTotal":"Import Fee (Euro)",
       "taepayStatus":"{year} Pay Status",
       "company":"Company"
 
@@ -624,7 +624,7 @@
       "addProduct":"Add Product",
       "selectProduct":"Select Product",
       "addImport":"Add Import",
-      "viewTaeStatus":"view Tax & Status"
+      "viewTaeStatus":"view Fee & Status"
     },
     "success": {
       "register": "Import shipment added successfully"
@@ -656,7 +656,7 @@
       "productName": "Product",
       "internalArticleCode": "Article No.",
       "units": "Units",
-      "taeTotalValue": "Tax total (MT)",
+      "taeTotalValue": "Fee total (Euro)",
       "actions": "Actions"
     }
   },
@@ -719,8 +719,8 @@
       "requestedCompensationKgs":"KG Compensation Requested",
       "compensationStatus":"KG Compensation Status",
       "actualTotalKgs":"KG Total Actuals",
-      "actualTotalTae":"Tax Total Actuals (MT)",
-      "actualTotalTaePaid":"Tax Paid (MT)",
+      "actualTotalTae":"Fee Total Actuals (Euro)",
+      "actualTotalTaePaid":"Fee Paid (Euro)",
       "compensationViable":"Compensation Viable",
       "repaymentStatus":"Repayment Status"
     },
@@ -759,7 +759,7 @@
       "products":"Products",
       "articleNo":"Article No.",
       "hsCode":"HS Code",
-      "taePaymentStatus":"Tax Payment Status",
+      "taePaymentStatus":"Fee Payment Status",
       "productionPlan":"Production Plan",
       "productionPlans":"Production Plans",
       "imports":"Imports",
@@ -783,9 +783,9 @@
       "actions":"Actions",
       "paymentType":"Payment Type",
       "date": "Date",
-      "taeValueMT":"Tax Value (MT)",
+      "taeValueMT":"Fee Value (Euro)",
       "status":"Status",
-      "taeDueValueMT":"Tax Due Value (MT)",
+      "taeDueValueMT":"Fee Due Value (Euro)",
       "deadline": "Deadline",
       "remindOwner": "Remind Owner",
       "edOrgStatus" : "End Destination Status",
@@ -842,9 +842,9 @@
       "companyName":"Company Name",
       "paymentType":"Payment Type",
       "createdAt":"Date",
-      "total_value":"Tax Value (MT)",
+      "total_value":"Fee Value (Euro)",
       "paystatus":"Payment Status",
-      "pendingTAE":"Pending Tax Value (MT)",
+      "pendingTAE":"Pending Fee Value (Euro)",
       "deadline":"Deadline",
       "remindOwner":"Remind Owner"
     }
@@ -866,7 +866,7 @@
       "paymentType":"Payment Type",
       "dueDate":"Due Date",
       "paymentStatus":"Payment Status",
-      "taeValue":"Tax Value (MT)"
+      "taeValue":"Fee Value (Euro)"
 
     },
     "placeholder":{
@@ -910,7 +910,7 @@
   },
   "myaccount":{
     "head":{
-      "myaccount": "My Account"
+      "myaccount": "Account"
     },
     "label":{
       "profileimage":"Profile Image"
@@ -991,16 +991,16 @@
   },
   "taeFees":{
     "head":{
-      "tae": "Tax Fee/Material"
+      "tae": "Fee Fee/Material"
     },
     "label":{
       "profileimage":"Profile Image"
     },
     "table": {
       "material": "Material",
-      "taeFeeMtTon": "Tax MT/Ton",
+      "taeFeeMtTon": "Fee Euro/Ton",
       "impactFactor": "Impact Factor",
-      "taeFeeMtKg": "Tax MT/KG"
+      "taeFeeMtKg": "Fee Euro/KG"
     }
   },
   "users":{
@@ -1013,13 +1013,13 @@
   },
   "taePayments":{
     "head":{
-      "taePayments": "Tax Payments"
+      "taePayments": "Fee Payments"
     },
     "label":{
       "profileimage":"Profile Image"
     },
     "other": {
-      "notVerified":"Your company is currently not verified or has been rejected. Tax payments can only be view after verification."
+      "notVerified":"Your company is currently not verified or has been rejected. Fee payments can only be view after verification."
     }
   },
   "imageUpload":{
