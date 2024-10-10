@@ -292,7 +292,7 @@ onMounted(async () => {
                   @input="clearErrorByField('phone')"
               >
               <template v-slot:prepend-inner>
-                  <span class="prefix-text">+{{ '285' }}</span>
+                  <span class="prefix-text">+{{ '260' }}</span>
                 </template>
               </v-text-field>
              </div>
