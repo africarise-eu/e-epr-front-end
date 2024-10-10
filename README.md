@@ -1,6 +1,6 @@
-# Tae UI
+# eEPR UI
 
-This repo contains the ui for the Tae web application and connects with the APIs from the api repo.
+This repo contains the ui for the eEPR web application and connects with the APIs from the api repo.
 
 ## Project setup
 
